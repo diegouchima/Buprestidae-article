@@ -123,7 +123,7 @@ G3
 
 ## Curva de rarefaccion utilizando individuos
 
-comunidad<-copdat
+#comunidad<-copdat
 comunidad <- read_excel("buprestidae_analisis_v4.xlsx", sheet = "rarefaccion")
 
 tot<-rarefy(comunidad[,2],sample=c(1:sum(comunidad$total)),se=T) 
